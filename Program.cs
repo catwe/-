@@ -37,7 +37,7 @@ namespace 继承
              测试GetType方法
              */
             int i = 100;
-            string name = "王聪";
+            string name = "王小聪";
             Console.WriteLine(i + "  "+"的数值类型为：" + i.GetType());
             Console.WriteLine(name + "  " + "的数值类型为：" + name.GetType());
             Console.WriteLine(stu1 + "  " + "的数值类型为：" + stu1.GetType());
@@ -55,11 +55,11 @@ namespace 继承
              测试继承
              */
             stu1.Id = 2016212806;
-            stu1.Name = "王聪";
+            stu1.Name = "王小聪";
             stu1.Sex = "男";
-            stu1.Cardid = "500235199711014012";
+            stu1.Cardid = "5***************12";
             //stu1.Grade = "大四";
-            stu1.Tel = "185813862096";
+            stu1.Tel = "185****862096";
             //stu1.Major = "电气工程及其自动化";
             stu1.Print();
 
